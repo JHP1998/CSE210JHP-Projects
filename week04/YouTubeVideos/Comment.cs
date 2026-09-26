@@ -1,0 +1,10 @@
+class Comment
+{
+    public Comment(string commenterName, string commentText)
+    {
+        _commenterName = commenterName;
+        _commentText = commentText;
+    }
+    public string _commenterName { get; set; }
+    public string _commentText { get; set; }
+}
