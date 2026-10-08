@@ -54,14 +54,17 @@ class Program
                     Console.WriteLine($"Breathing Activity Count : {breathingCount}");
                     Console.WriteLine($"Listing Activity Count : {listingCount}");
                     Console.WriteLine($"Reflecting Activity Count : {reflectingCount}"); 
+                    Console.WriteLine();
+                    Console.WriteLine($"Press enter to return to the menu");
+                    Console.ReadLine();
                     break;
 
                 case "5":
-                    bool running = false;
+                    running = false;
                     break;
 
                 default:
-                    Console.WriteLine($" Invalid choice, please select from Menu ")
+                    Console.WriteLine($" Invalid choice, please select from Menu ");
                     Activity.Pause(2);
 
                     break;
